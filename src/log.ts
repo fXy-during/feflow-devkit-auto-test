@@ -1,4 +1,6 @@
 console.log("this is devkit command, outing");
-export default function (context: any) {
+const logFn = (context: any) => {
   console.log("this is devkit command, inner");
-}
+};
+export default logFn;
+module.exports = logFn;

@@ -5,3 +5,4 @@ const echoFn = (context: any) => {
 };
 
 export default echoFn;
+module.exports = echoFn;
