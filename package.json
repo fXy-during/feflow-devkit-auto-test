@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -m CommonJS --outDir lib/dist"
+    "build": "tsc -m CommonJS --outDir lib"
   },
   "author": "",
   "license": "MIT",
