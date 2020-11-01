@@ -1,5 +1,9 @@
 {
   "builders": {
+    "check": {
+      "implementation": "./lib/check.js",
+      "description": "端对端测试套件 - check"
+    },
     "log": {
       "implementation": "./lib/log.js",
       "description": "端对端测试套件 - log"
