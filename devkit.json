@@ -1,0 +1,19 @@
+{
+  "builders": {
+    "log": {
+      "implementation": "./lib/log.js",
+      "description": "端对端测试套件 - log"
+    },
+    "echo": {
+      "implementation": "./lib/echo.js",
+      "description": "端对端测试套件 - echo",
+      "optionsDescription": {
+        "p": "选择端口构建",
+        "dist": {
+          "description": "构建产物目录",
+          "alias": "d"
+        }
+      }
+    }
+  }
+}
